@@ -1,0 +1,112 @@
+.circle {
+    background-color: #FFC046;
+    width: 118px;
+    height: 118px;
+    margin-top: 660px;
+    margin-left: 320px;
+    border-radius: 100%;
+    animation: bolshe 4s linear infinite;
+}
+@keyframes bolshe {
+    0% { transform: scale(.45); background-color: #FFC046;}
+    50% {transform: scale(1); background-color: #F12D1C;}
+    100% { transform: scale(.45); background-color: #FFC046;}
+}
+.cub1 {
+    background-color: #F12D1C;
+    width: 108px;
+    height: 214px;
+    margin-top: -36px;
+    margin-left: 1231px;
+    transform: rotate(45deg);
+    animation: move 4s ease infinite;
+}
+@keyframes move {
+    0% {margin-left: 1231px;}
+    50% {margin-left: 1428px;}
+    100% {margin-left:1231px;}
+   }
+.cub2 {
+    background-color: #921C12;
+    width: 1278px;
+    height: 16px;
+    margin-top: -287px;
+    margin-left: 607px;
+    transform: rotate(133deg);
+    animation: op 4s ease infinite;
+}
+@keyframes  op {
+0% {width: 1278px; }
+50% {width: 792px;}
+100% {width: 1278px;}
+}
+.cub3 {
+    background-color: #4C9387;
+    width: 28px;
+    height: 367px;
+    margin-top: -118px;
+    margin-left: -86px;
+    animation: mesto 4s linear infinite;
+}
+@keyframes mesto {
+    0% {width: 28px;}
+    50% {width: 373px;}
+    100% {width: 28px;}
+}
+.cub4 {
+    background-color: black;
+    width: 212px;
+    height: 382px;
+    margin-top: -831px;
+    margin-left: -68px;
+    transform: rotate(45deg);
+    animation: menshe 4s linear infinite;
+}
+@keyframes menshe {
+    0% {margin-left: -68px;}
+    50% {margin-left: -129px;}
+    100% {margin-left: -68px;}
+}
+   
+.cub5 {
+    background-color: #4C9387;
+    width: 42px;
+    height: 224px;
+    margin-top: -211px;
+    margin-left: 106px;
+    transform: rotate(45deg);
+    animation: na 4s ease infinite;
+}
+@keyframes  na {
+    0% {width: 42px; }
+    50% {width: 21px;}
+    100% {width: 42px;}
+    }
+.cub6 {
+    background-color: #4C9387;
+    width: 42px;
+    height: 402px;
+    margin-top: -367px;
+    margin-left: 219px;
+    transform: rotate(45deg);
+    animation: ka 4s ease infinite;
+}
+@keyframes  ka {
+    0% {width: 42px; }
+    50% {width: 21px;}
+    100% {width: 42px;}
+    }
+.cub7 {
+    background-color: #F12D1C;
+    width: 118px;
+    height: 70px;
+    margin-top: -174px;
+    margin-left: 232px;
+    transform: rotate(45deg);
+    animation: tak 4s linear infinite;
+}
+@keyframes tak {
+    0% {margin-left: 232px;}
+    50% {margin-left: 1095px;}
+    100% {margin-left: 232px;}
+   }
