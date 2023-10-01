@@ -1,34 +1,627 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
+    <link rel="icon" type="img/x-icon" href="images/fav.svg"/>
     <meta name="viewport" content="width=device-width">
-    <title> Suprematizm </title>
+    <title>kolobok</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <style media="screen">
-        html {
-          background: white;
-          display: block;
-          height: 100%;
-        }
-        body {
-          width: 1440px;
-          height: 100px;
-          display: block;
-          margin: 0 auto;
-          position: relative;
-          background: white;
-        }
-      </style>
-       </head>
-       <body>
-        <div class="circle"></div>
-        <div class="cub1"></div>
-        <div class="cub2"></div>
-        <div class="cub3"></div>
-        <div class="cub4"></div>
-        <div class="cub5"></div>
-        <div class="cub6"></div>
-        <div class="cub7"></div>
-      </body>
-    
+    <link href="https://fonts.cdnfonts.com/css/mercutio-nbp-basic" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/animation.js"></script>
+</head>
+<body> 
+<!-- вступительный экран -->
+<div class="povorot">
+    <div class="pro"></div>
+</div>
+<div class="block1">
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="blue">
+        <div class="pervoe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+        <div class="vtoroe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+    </div>
+    <div class="uzor"></div>
+    <div class="blue1">
+        <div class="pervoe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+        <div class="vtoroe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="krivaya">
+        <img src="images/gora.svg" class="gora">
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="slovo1">
+        <div class="chto1">
+            <p>КОЛОБОК УШЁЛ ОТ ДЕДУШКИ И БАБУШКИ, ПОМОГИ ЕМУ УБЕЖАТЬ ОТ ЛИСЫ! КОЛОБОК УШЁЛ ОТ ДЕДУШКИ И БАБУШКИ, ПОМОГИ ЕМУ УБЕЖАТЬ ОТ ЛИСЫ! КОЛОБОК УШЁЛ ОТ ДЕДУ</p>
+        </div>
+    </div>
+    <div class="zelen1">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="seredina">
+        <div class="con1">
+            <div class="elki1"></div>
+        </div>
+        <div class="nach"></div>
+        <div class="pravilo none"></div>
+        <div class="game none"></div>
+        <div class="con2">
+            <div class="elki2"></div>
+        </div>
+    </div>
+    <!-- низ -->
+    <div class="zelen1">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="slovo1">
+        <div class="chto1">
+            <p> КОЛОБОК УШЁЛ ОТ ДЕДУШКИ И БАБУШКИ, ПОМОГИ ЕМУ УБЕЖАТЬ ОТ ЛИСЫ! КОЛОБОК УШЁЛ ОТ ДЕДУШКИ И БАБУШКИ, ПОМОГИ ЕМУ УБЕЖАТЬ ОТ ЛИСЫ! КОЛОБОК УШЁЛ ОТ ДЕДУ</p>
+        </div>
+    </div>
+    <div class="zelen1">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="krivaya">
+        <img src="images/gora.svg" class="gora">
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <div class="blue">
+        <div class="pervoe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+        <div class="vtoroe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+    </div>
+    <div class="uzor"></div>
+    <div class="blue1">
+        <div class="pervoe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+        <div class="vtoroe"> 
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+            <div class="vasilek2"></div>
+            <div class="vasilek"></div>
+        </div>
+    </div>
+    <div class="zelen">
+        <img src="images/trava.svg" class="trava">
+    </div>
+</div>
+
+
+<!-- экран с игрой    -->
+
+
+<div class="block2 none"> 
+<div class="nebo"></div>
+<!-- звёзды -->
+<div class="star1"></div>
+<div class="star2"></div>
+<div class="star3"></div>
+<div class="star4"></div>
+<div class="star5"></div>
+<div class="star6"></div>
+<div class="star7"></div>
+<div class="star8"></div>
+<div class="star9"></div>
+<div class="star10"></div>
+<div class="star11"></div>
+<div class="star12"></div>
+<div class="star13"></div>
+<div class="star14"></div>
+<div class="star15"></div>
+<div class="star16"></div>
+<div class="star17"></div>
+<div class="star18"></div>
+<div class="star19"></div>
+<div class="star20"></div>
+<div class="star21"></div>
+<div class="tree">
+    <img src="images/les.svg" class="les">
+</div>
+<div class="zemlya">
+    <img src="images/ground.svg" class="ground">
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+
+
+
+<!-- начало блока главного пространства -->
+<div class="igra">
+    <div class="lisa"></div>
+    <div id="hero"></div>
+    <div id="golb"></div>
+    <div id="mooh"></div>
+    <div id="koch"></div>
+    <div id="moh"></div>
+    <div id="nart"></div>
+    <div id="grib"></div>
+
+    <div id="koch2"></div>
+    <div id="moh2"></div>
+    <div id="golb2"></div>
+    <div id="rosa"></div>
+    <div id="koch3"></div>
+    <div id="pen"></div>
+    <div id="mooh2"></div>
+    <div id="golb3"></div>
+    <div id="rosa2"></div>
+    <div id="fin"></div>
+
+
+
+</div>
+<!-- второая линия полосок -->
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="zemlya">
+    <img src="images/ground.svg" class="ground">
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="strela">
+    <img src="images/voda.svg" class="voda">
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="tsvet1">
+    <img src="images/flowers.svg" class="flowers1">
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+</div>   
+
+<!-- экран выйгрыша -->
+<div class="block3 none">
+    <div class="zelen1">
+        <img src="images/trava.svg" class="trava">
+    </div>
+    <!-- сердца и ветки -->
+<div class="verh">
+    <div class="otdel1">
+        <!-- первая ветка -->
+        <div class="vetka1">
+            <img src="images/pochki.svg" class="pochki1">
+        </div>
+        <div class="vetka2 none">
+            <img src="images/yellowob.svg" class="yellowpochki">
+        </div>
+        <!-- сердце 1 -->
+        <div class="hart"> 
+            <div class="serd"></div>
+        </div>
+        <!-- вторая ветка -->
+        <div class="vetka3">
+            <img src="images/blue.svg" class="pochki2">
+        </div>
+        <div class="vetka4 none">
+            <img src="images/or2.svg" class="pochki2">
+        </div>
+    </div>
+    <div class="hart"> 
+        <div class="serd"></div>
+    </div>
+    <div class="otdel1">
+    <!-- третья ветка -->
+        <div class="vetka5">
+            <img src="images/blue2.svg" class="pochki2">
+        </div>
+        <div class="vetka6 none">
+            <img src="images/yl.svg" class="pochki2">
+        </div>
+        <!-- снова сердце -->
+        <div class="hart"> 
+            <div class="serd"></div>
+        </div>
+        <!-- четвёртая ветка -->
+        <div class="vetka7">
+            <img src="images/pochki4.svg" class="pochki1">
+        </div>
+        <div class="vetka8 none">
+            <img src="images/yellowtu.svg" class="pochki1">
+        </div>
+    </div>
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="took">
+    <img src="images/vena.svg" class="vena">
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН!</p>
+    </div>
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="midle">
+    <div class="var1">
+        <!-- первая ёлка -->
+        <div class="drevo1">
+            <img src="images/ho1.svg" class="ho1">
+        </div>
+        <div class="drevo2 none">
+            <img src="images/palka.svg" class="palka">
+        </div>
+        <!-- дом -->
+        <div class="dom1">
+            <img src="images/home.svg" class="home">
+        </div>
+        <!-- вторая ёлка -->
+        <div class="drevo3">
+            <img src="images/palka.svg" class="palka">
+        </div>
+        <div class="drevo4 none">
+            <img src="images/ho1.svg" class="ho1">
+        </div>
+    </div>
+    <div class="var2">
+        <img src="images/bigko.svg" class="bigko">
+    </div>
+    <div class="var3">
+        <!-- третья ёлка -->
+        <div class="drevo5">
+            <img src="images/ho1.svg" class="ho1">
+        </div>
+        <div class="drevo6 none">
+            <img src="images/palka.svg" class="palka">
+        </div>
+        <!-- кнопка -->
+        <div class="povtor">
+            <img src="images/povtor.svg" class="home">
+        </div>
+        <!-- четвёртое дерево -->
+        <div class="drevo7">
+            <img src="images/palka.svg" class="palka">
+        </div>
+        <div class="drevo8 none">
+            <img src="images/ho1.svg" class="ho1">
+        </div>
+    </div>
+</div>
+<!-- снова низ -->
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН! УРА! УРА! УРА! КОЛОБОК СПАСЁН!</p>
+    </div>
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="took">
+    <img src="images/vena.svg" class="vena">
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="verh">
+    <div class="otdel1">
+        <!-- пятая ветка -->
+        <div class="vetka9">
+            <img src="images/pochki.svg" class="pochki1">
+        </div>
+        <div class="vetka10 none">
+            <img src="images/yellowob.svg" class="pochki1">
+        </div>
+        <!-- снова сердце -->
+        <div class="hart"> 
+            <div class="serd"></div>
+        </div>
+        <!-- шестая ветка -->
+        <div class="vetka11">
+            <img src="images/blue.svg" class="pochki2">
+        </div>
+        <div class="vetka12 none">
+            <img src="images/or2.svg" class="pochki2">
+        </div>
+    </div>
+    <div class="hart"> 
+        <div class="serd"></div>
+    </div>
+    <div class="otdel1">
+        <!-- седьмая ветка -->
+        <div class="vetka13">
+            <img src="images/blue2.svg" class="pochki2">
+        </div>
+        <div class="vetka14 none">
+            <img src="images/yl.svg" class="pochki2">
+        </div>
+        <!-- снова сердце -->
+        <div class="hart"> 
+            <div class="serd"></div>
+        </div>
+        <!-- восьмая ветка -->
+        <div class="vetka15">
+            <img src="images/pochki4.svg" class="pochki1">
+        </div>
+        <div class="vetka16 none">
+            <img src="images/yellowtu.svg" class="pochki1">
+        </div>
+    </div>
+</div>
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+</div>
+<!-- экран проигрыша -->
+<div class="block4 none">
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="bro">
+    <img src="images/brown.svg" class="brown">
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto2">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="bro">
+    <img src="images/brown.svg" class="brown">
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<!-- центр -->
+<div class="ceta">
+<div class="des1">
+    <!-- первая ёлка -->
+    <div class="drevo1">
+        <img src="images/ho1.svg" class="ho1">
+    </div>
+    <div class="drevo2 none">
+        <img src="images/palka.svg" class="palka">
+    </div>
+    <!-- дом -->
+    <div class="ber">
+        <img src="images/home.svg" class="berloga">
+    </div>
+    <!-- вторая ёлка -->
+    <div class="drevo3">
+        <img src="images/palka.svg" class="palka">
+    </div>
+    <div class="drevo4 none">
+        <img src="images/ho1.svg" class="ho1">
+    </div>
+</div>
+    <div class="des2">
+        <img src="images/sad.svg" class="sad">
+    </div>
+    <div class="des3">
+<!-- третья ёлка -->
+    <div class="drevo5">
+        <img src="images/ho1.svg" class="ho1">
+    </div>
+        <div class="drevo6 none">
+        <img src="images/palka.svg" class="palka">
+    </div>
+<!-- кнопка -->
+    <div class="snova">
+        <img src="images/povtor.svg" class="berloga">
+    </div>
+<!-- четвёртое дерево -->
+    <div class="drevo7">
+        <img src="images/palka.svg" class="palka">
+    </div>
+    <div class="drevo8 none">
+        <img src="images/ho1.svg" class="ho1">
+    </div>
+</div>
+</div>
+<!-- снова низ -->
+<div class="zelen">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="bro">
+    <img src="images/brown.svg" class="brown">
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto2">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="bro">
+    <img src="images/brown.svg" class="brown">
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+<div class="slovo1">
+    <div class="chto1">
+        <p> ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ КОНЕЦ! ВОТ И СКАЗОЧКЕ К</p>
+    </div>
+</div>
+<div class="grass1">
+    <img src="images/trava.svg" class="trava">
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
